@@ -1,4 +1,9 @@
 wechat-library
 ==============
 
-a digital library by Wechat
+微信简易图书馆
+--------------
+
+具体的实现思路
+
+* 
