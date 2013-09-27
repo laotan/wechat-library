@@ -14,7 +14,7 @@ wechat-library
 
 配置微信公众平台的自定义`token`
 	
-	define("TOKEN","laotan");
+	define("TOKEN","yourtoken");
 
 配置数据库报错转义，不定义将直接返回数据库error
 
