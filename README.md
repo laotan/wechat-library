@@ -20,7 +20,7 @@ wechat-library
 
 	define("ERR_MSG","请求出错，臣妾做不到啊~");
 
-DEBUG模式，可以讲php错误发送到微信客户端
+DEBUG模式，可以将php错误发送到微信客户端
 
 	new MyWechat(TOKEN, FALSE);//TRUE开启
 
