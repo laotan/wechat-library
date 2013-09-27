@@ -10,7 +10,7 @@ wechat-library
 
 整个应用部署在SAE，数据库操作使用的是官方的db类，如果要部署到自己的服务器，需要修改db类
 
-### 配置说明
+### weinxin.php配置说明
 
 配置微信公众平台的自定义`token`
 	
@@ -24,3 +24,8 @@ DEBUG模式，可以将php错误发送到微信客户端
 
 	new MyWechat(TOKEN, FALSE);//TRUE开启
 
+### index.php配置说明
+
+图书管理界面默认口令为`admin`,写死在配置里面
+
+	define("PASSWORD", "admin");
